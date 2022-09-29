@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EbaySearch">
+	<test name="EbaySearch" parallel="false" preserve-order="true"
+		enabled="true" verbose="1" group-by-instances="true">
+		<parameter name = "product" value="ipad"/>
+		<parameter name = "sorting" value="Highest price"/>
+		<parameter name = "resultsCount" value="5"/>
+        <classes>
+             <class name="EbaySearch"/>
+		</classes>
+	</test>
+</suite>

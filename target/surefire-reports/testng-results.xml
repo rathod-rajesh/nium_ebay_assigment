@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EbaySearch" duration-ms="42085" started-at="2022-09-29T14:12:14 IST" finished-at="2022-09-29T14:12:56 IST">
+    <groups>
+    </groups>
+    <test name="EbaySearch" duration-ms="42085" started-at="2022-09-29T14:12:14 IST" finished-at="2022-09-29T14:12:56 IST">
+      <class name="EbaySearch">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:EbaySearch@4fe3c938]" name="beforeSuite" is-config="true" duration-ms="10661" started-at="2022-09-29T14:12:04 IST" finished-at="2022-09-29T14:12:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:EbaySearch@4fe3c938]" name="setUp" is-config="true" duration-ms="86" started-at="2022-09-29T14:12:14 IST" finished-at="2022-09-29T14:12:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homepage(java.lang.String, java.lang.String, int)[pri:0, instance:EbaySearch@4fe3c938]" name="homepage" duration-ms="41921" started-at="2022-09-29T14:12:15 IST" description="Check HomePage" finished-at="2022-09-29T14:12:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Highest price]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:EbaySearch@4fe3c938]" name="afterSuite" is-config="true" duration-ms="1095" started-at="2022-09-29T14:12:57 IST" finished-at="2022-09-29T14:12:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- EbaySearch -->
+    </test> <!-- EbaySearch -->
+  </suite> <!-- EbaySearch -->
+</testng-results>
